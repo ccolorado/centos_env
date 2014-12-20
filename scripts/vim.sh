@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -e
 _BUILD_TARGET_DOWNLOAD=${_BUILD_TARGET_DOWNLOAD-/tmp/build/download}
 _BUILD_TARGET_MAKE=${_BUILD_TARGET_MAKE-/tmp/build/make}
 

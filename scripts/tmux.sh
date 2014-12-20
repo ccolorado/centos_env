@@ -1,11 +1,5 @@
 #!/bin/bash
 
-set -e
-set -x
-#if [ -f ~/.build_settings ]; then
-#  source ~/.build_settings
-#fi;
-
 _BUILD_TARGET_DOWNLOAD=${_BUILD_TARGET_DOWNLOAD-/tmp/build/download}
 _BUILD_TARGET_MAKE=${_BUILD_TARGET_MAKE-/tmp/build/make}
 
